@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    position: relative;
+    height: 100vh;
+    font-weight: 400;
+    padding: 3em;
+    padding-left: 4em;
+}
+
+.title-text {
+    padding: 2em;
+}
+
+.title-text h3 {
+    margin-top: 1em;
+}
+
+.base_buttons {
+    background: white;
+    width: 771px;
+    height: 156px;
+    border-radius: 6px;
+    box-shadow: -1px 2px 25px 3px rgba(0, 0, 0, 0.11);  
+    
+}
+
+.logo-background {
+    width: 70px;
+    height: 70px;
+    background-color: #ffbc00;
+    border-radius: 50%
+}
+
+.l2 {
+    background-color: black;
+}
+
+.l3 {
+    background-color: rgb(231, 231, 231);
+}
+
+.b2 {
+    margin-top: 1em;
+}
+
+.logo-background img {
+    margin-top: 4px;
+}
+
+.row {
+    padding: 0 3em 0 3em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.base_buttons div img {
+    padding: 15% 20%;
+}
+
+.base_buttons .text {
+    width: 65px;
+    height: 14px;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    text-align: center;
+    color: #000000;
+}
+
+.oval {
+    width: 43px;
+    height: 43px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.progress-bar-container {
+    height: 0.5em;
+    display: flex;
+    width: 250px;
+
+}
+
+.pb-1 {
+    background: chocolate;
+    width: 20%;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.pb-2 {
+    background: #ffbc00;
+    width: 25%;
+}
+
+.pb-3 {
+    background: rgb(177, 175, 175);
+    width: 55%;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+
+.oval-0 {
+    border: dashed 2px yellow;
+}
+
+.oval-1 {
+    border: solid 1px #f8d2b7;
+}
+
+.oval-2 {
+    border: solid 1px grey;
+}
+
+.oval-3 {
+    border: solid 1px yellow;
+}
+
+.oval-4 {
+    border: solid 1px cyan;
+}
+
+.d {
+    margin-top: 4px;
+}
+
+.container {
+    width: 90%;
+    margin: 50px auto;
+  }
